@@ -21,8 +21,6 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/slick.css" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/dev-style.css"/>
-        <script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.min.js"></script>
-
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

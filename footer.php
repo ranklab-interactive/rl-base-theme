@@ -11,9 +11,11 @@
     </footer>
 </div><!-- end footer-container -->
 <?php wp_footer(); ?>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.sidr.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/scripts.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.equalizer.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.min.js"></script>
   <script>
     $(document).foundation({
 /* TODO -  Customize Sidr menu if applicable*/       
