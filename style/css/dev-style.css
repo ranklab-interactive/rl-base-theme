@@ -143,8 +143,3 @@ nav#main-nav li.current_page_item,nav#main-nav li.current_page_parent{}
 @media only screen and (orientation: landscape) {}
 /*//___Orientation Portrait___\\*/
 @media only screen and (orientation: portrait) {}
-
-/*//___Custom Media Queries___\\*/
-@media only screen and (max-width: 64em) {
-    .navigation-callout:before{display: none;}
-}
