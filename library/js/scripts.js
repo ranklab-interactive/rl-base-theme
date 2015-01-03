@@ -26,11 +26,6 @@ jQuery(document).ready(function($) {
 	    if ($(this).height() > max_height) { max_height = $(this).height(); }
 	});
 	$("div.third").height(max_height);
-	
-	//Responsive Menu
-	$('#responsive-menu-button').sidr({
-		name: 'sidr-main',
-		source: '#nav'
-	});
+
 
 });
