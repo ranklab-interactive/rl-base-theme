@@ -1,29 +1,25 @@
 <!doctype html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-<meta charset="<?php bloginfo('charset'); ?>">
-<title><?php wp_title(''); ?></title>
+	<meta charset="<?php bloginfo('charset'); ?>">
+	<title><?php wp_title(''); ?></title>
 
-<!-- dns prefetch -->
-<link href="//www.google-analytics.com" rel="dns-prefetch">
+	<!-- dns prefetch -->
+	<link href="//www.google-analytics.com" rel="dns-prefetch">
 
-<!-- meta -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- meta -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<!-- icons -->
-<link href="<?php echo get_template_directory_uri(); ?>/style/images/icons/favicon.ico" rel="shortcut icon">
-<link href="<?php echo get_template_directory_uri(); ?>/style/images/icons/touch.png" rel="apple-touch-icon-precomposed">
-	
-<!-- css + javascript -->
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/normalize.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/slick.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<?php wp_head(); ?>
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/jquery.mmenu.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/jquery.mmenu.positioning.css" />
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.mmenu.min.js"></script>
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/dev-style.css"/>
+	<!-- icons -->
+	<link href="<?php echo get_template_directory_uri(); ?>/style/images/icons/favicon.ico" rel="shortcut icon">
+	<link href="<?php echo get_template_directory_uri(); ?>/style/images/icons/touch.png" rel="apple-touch-icon-precomposed">
+		
+	<!-- css + javascript -->
+
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.min.js"></script>
+	<?php wp_head(); ?>	
 </head>
 <body <?php body_class(); ?>>
 

@@ -3,7 +3,7 @@
 require_once (TEMPLATEPATH . '/library/functions/setup.php');
 
 //Frothy Functions
-require_once (TEMPLATEPATH . '/library/functions/ranklab-functions.php');
+// require_once (TEMPLATEPATH . '/library/functions/ranklab-functions.php');
 
 //Frothy Features
 require_once (TEMPLATEPATH . '/library/functions/ranklab-features.php');
